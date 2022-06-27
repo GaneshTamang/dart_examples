@@ -17,6 +17,9 @@ void main() {
   print(person1.containsKey('name'));
   print("contains key with Value 'Ganesh'");
   print(person1.containsValue('Ganesh'));
+  //important
+  print('checking if value has characters');
+  print(person1.values.contains('Ganesh'));
   print('\n');
   //set and lists are iterables but map is not iterables so need to accs key to iterate
   print('iterations direct from person1 map with refrence of  keys');

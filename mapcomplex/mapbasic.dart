@@ -8,15 +8,7 @@ void main() {
     'height': 1.84,
     // 'weight': 1.2,
   };
-  var w = person1['weight'];
-  //checking null and printing
-  if (w == null) {
-    print('no value');
-  } else {
-    print(w);
-  }
-  print('\n');
-  print(person1);
 
-  //set and lists are iterables but map is not iterables
+  print(person1);
+  print(person1['name']);
 }

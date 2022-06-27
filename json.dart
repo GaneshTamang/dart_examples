@@ -10,7 +10,8 @@ void main() {
 
   //dart in list with maps
   //here '''  here with 3 dots we can write string in multiple line whic in this case map of key value pair   '''
-  var jsonData = '''
+
+  var data = '''
   [
     {"name":"Durga",
   "age":20,
@@ -30,16 +31,23 @@ void main() {
   "encode":false}
   ]
   ''';
-  print(jsonData);
+  print(data);
+  print('\n');
   print('iamhere');
   print(json.runtimeType);
+  print('\n');
   print('beforedecode');
-  var decodedData = jsonDecode(jsonData);
+  var decodedData = jsonDecode(data);
+  print('\n');
   print(decodedData);
+  print('\n');
   print(decodedData.runtimeType);
+  print('\n');
   print(decodedData.hashCode);
-  print(jsonData);
-  var a = jsonData;
+  print('\n');
+  print(data);
+  print('\n');
+  var a = data;
   print(a);
   print(a.runtimeType);
 }
