@@ -15,17 +15,17 @@ void main() {
     //making current value from  map  that is map named menu has key   or not
     //what is current=menu['oredereditem']; which will compare to map menu and provide null or value
 //checking condition existis or nill
-    final currentRecievedMenuPrice = menu[customerRecievedOrder];
+    final currentRecievedMenuPricetocheck = menu[customerRecievedOrder];
     //comparing with current value and doing action if meets condition
 
-    if (currentRecievedMenuPrice != null) {
+    if (currentRecievedMenuPricetocheck != null) {
       //list loop value recieved
       print('custormer ordered ${customerRecievedOrder} is availabele on menu');
       //list bvalue compare to map key and got price
       print(
           'current recieved order item price is ${menu[customerRecievedOrder]}');
       //price added in loop
-      totalprice = currentRecievedMenuPrice + totalprice;
+      totalprice = currentRecievedMenuPricetocheck + totalprice;
       //equivalent code is totalprice+=currentprice
       print('current total price :$totalprice');
       print('\n');

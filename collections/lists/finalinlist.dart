@@ -10,6 +10,9 @@ void main() {
   ];
   //after const cant moditfy values but in final
   // we can modify vlaues buut cant decclare more than once
-  cities[0] = 'iam added';
+  cities[0] = 'iam changed at 0';
   print(cities);
+  cities.add('i am added');
+  print(cities);
+  print(cities.indexOf('i am added'));
 }
