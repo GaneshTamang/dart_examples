@@ -82,7 +82,7 @@ void main() {
 
   var i = 0;
   for (var temp in subject) {
-    if (temp['category'] == 'nepali') {
+    if (temp['category'] == 'aa') {
       cap2.add(temp);
       print('found $i');
       print(temp['name']);
@@ -91,9 +91,8 @@ void main() {
       print('\n');
 
       i++;
-    } else
-      () {
-        print('not found');
-      };
+    } else {
+      print('not found');
+    }
   }
 }
